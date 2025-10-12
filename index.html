@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image" href="image (3).png">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  
+  <header class="navbar">
+  <div class="logo">
+    <p>Carbon <span> Nova</span> <a href="index.html"><img src="image (2).png"></a> </p>
+  </div>
+  
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href=" model.html">Model</a>
+    <a href="team.html">Team</a>
+  </nav>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to Carbon <span style="color:#00b4d8"> Nova</span></h1>
+      <p># Where invention meets innovation #</p>
+      <a href="model.html" class="btn-primary">Explore Models</a>
+    </div>
+  </section>
+
+  <!-- FEATURE SECTION -->
+  <section class="features">
+    <h2>Why Choose Carbon  Nova</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3> Precision Design</h3>
+        <p>The Carbon  Nova delivers flawless precision with high-grade carbon fiber and unmatched performance.</p>
+      </div>
+      <div class="feature">
+        <h3> Global Standards</h3>
+        <p>The Carbon  Nova meets global standards for quality, safety, performance, and environmental responsibility.</p>
+      </div>
+      <div class="feature">
+        <h3> Real-Time Performance</h3>
+        <p>The Carbon  Nova ensures real-time performance with instant response, stability, and precision control.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="about-preview">
+    <div class="about-content">
+      <h2>Building the Future of Digital Modeling</h2>
+      <p>The Carbon  Nova is a precision-engineered project designed for high performance, stability, and efficiency, meeting global standards while prioritizing environmental responsibility.</p>
+      <a href="about.html" class="btn-secondary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Carbon  Nova. Crafted by The Ultimate Team.</p>
+  </footer>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
